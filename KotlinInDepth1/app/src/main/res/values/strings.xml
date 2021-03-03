@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KotlinInDepth1</string>
+    <string name="list_of_names">List of Names</string>
+    <string name="filter">Filter</string>
+    <string name="next">Next</string>
+    <string name="name" />
+    <string name="vname">Name</string>
+    <string name="textview" />
+</resources>

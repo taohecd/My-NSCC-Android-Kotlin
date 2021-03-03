@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Who Are You?</string>
+    <string name="app_title">Who Are You?</string>
+    <string name="hi">Hi there!</string>
+    <string name="hello_name">Hi %1$s!</string>
+    <string name="prompt_name">Please tell me your name</string>
+    <string name="button_go">Go!</string>
+    <string name="button_third_activity">Show Third Screen</string>
+    <string name="welcome">Welcome to Screen 2</string>
+    <string name="third_hello">Welcome to the third screen</string>
+
+    <!-- Relative Layout Practice Strings !-->
+    <string name="practice_title">This Is My Title Text View</string>
+    <string name="practice_second_title">Second Title</string>
+    <string name="practice_third_title">Third Title</string>
+    <string name="practice_fourth_title">Fourth Title</string>
+    <string name="practice_button_text">My Button!</string>
+
+</resources>
