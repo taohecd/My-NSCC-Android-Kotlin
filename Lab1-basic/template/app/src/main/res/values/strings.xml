@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">androidtemplate</string>
+    <string name="hi">Hello, my name is Tao He.</string>
+    <string name="greetings">How are you?</string>
+</resources>

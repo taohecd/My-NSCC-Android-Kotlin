@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Course Helper</string>
+    <string name="students">Students</string>
+    <string name="textbook">Textbook</string>
+    <string name="course">Course</string>
+    <string name="course_name">Course Name:</string>
+    <string name="course_info">Course Information:</string>
+    <string name="course_code">Course Code:</string>
+    <string name="course_lab">Lab Requirement:</string>
+    <string name="textbook_info">Textbook Information:</string>
+    <string name="textbook_title">Title:</string>
+    <string name="textbook_year_published">Year Published:</string>
+    <string name="textbook_authors">Authors:</string>
+    <string name="view_students">View Students</string>
+</resources>

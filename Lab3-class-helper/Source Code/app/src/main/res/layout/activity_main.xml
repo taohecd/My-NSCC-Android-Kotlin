@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/course_linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/course_biology_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="20dp"
+                tools:text="Course One"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/separator"/>
+
+            <TextView
+                android:id="@+id/course_math_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="20dp"
+                tools:text="Course Two"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/separator"/>
+
+            <TextView
+                android:id="@+id/course_science_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="20dp"
+                tools:text="Course Three"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/separator"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/course_info_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="@string/course_info"
+            android:layout_below="@id/course_linearLayout"/>
+
+        <LinearLayout
+            android:id="@+id/course_info_linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/course_info_textView">
+
+            <TextView
+                android:id="@+id/course_name_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:text="@string/course_name"/>
+
+            <TextView
+                android:id="@+id/course_code_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:text="@string/course_code"/>
+
+            <TextView
+                android:id="@+id/course_lab_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:text="@string/course_lab"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/view_students_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_students"
+            android:layout_centerHorizontal="true"
+            android:padding="8sp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="24dp"
+            android:layout_below="@id/course_info_linearLayout"/>
+
+        <TextView
+            android:id="@+id/course_textbook_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="@string/textbook"
+            android:layout_below="@id/view_students_button"/>
+
+        <!-- TODO: Textbook information should be invisible if the course doesn't have a textbook -->
+        <LinearLayout
+            android:id="@+id/course_textbook_linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/course_textbook_textView">
+
+            <TextView
+                android:id="@+id/textbook_name_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:text="@string/textbook_title"/>
+
+            <TextView
+                android:id="@+id/textbook_year_published_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:text="@string/textbook_year_published"/>
+
+            <TextView
+                android:id="@+id/textbook_authors_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:text="@string/textbook_authors"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
