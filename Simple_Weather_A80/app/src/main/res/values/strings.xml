@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Simple_Weather_A8.0</string>
+    <string name="hello">Hello!</string>
+    <string name="enter_the_day_of_the_week">Enter the day of the week</string>
+    <string name="enter_the_day_of_the_week2">Enter the day of the week</string>
+    <string name="submit_for_weather_report">Submit for weather report</string>
+    <string name="submit">Submit</string>
+    <string name="textview"></string>
+    <string name="helloL">Hello!</string>
+    <string name="enterView">Enter the day of the week</string>
+    <string name="textview7">Submit for weather report</string>
+    <string name="button3">SUBMIT</string>
+    <string name="textview8">" "</string>
+</resources>
